@@ -41,4 +41,4 @@ jobs:
       
     - name: Test with pytest
       run: |
-        pytest
+        python main.py 'https://docs.google.com/forms/u/0/d/e/1FAIpQLSdwcwvrOeBG200L0tCSUHc1MLebycACWIi3qw0UBK31GE26Yg/viewform' -r
